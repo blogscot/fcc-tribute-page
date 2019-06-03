@@ -44,10 +44,8 @@ section {
 
   p {
     line-height: 1.2;
-  }
 
-  @media screen and (max-width: 500px) {
-    p {
+    @media screen and (max-width: 500px) {
       line-height: 1.3;
     }
   }
@@ -56,12 +54,9 @@ section {
 section#quotes {
   height: 220px;
   margin-bottom: 80px;
-}
 
-@media screen and (max-width: 500px) {
-  section#quotes {
+  @media screen and (max-width: 500px) {
     height: 300px;
-    margin-bottom: 80px;
   }
 }
 
