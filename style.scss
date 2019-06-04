@@ -83,9 +83,7 @@ section#quotes {
 .swiper-slide {
   box-sizing: border-box;
   text-align: center;
-  font-size: 18px;
   background: #fff;
-  /* Center slide text vertically */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -116,8 +114,12 @@ section:last-child {
 
 footer {
   display: flex;
-  justify-content: center;
-  align-items: flex-end;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
   height: var(--footer-height);
   font-size: 0.8rem;
+  p {
+    margin: 3px;
+  }
 }
