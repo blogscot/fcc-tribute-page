@@ -6,4 +6,4 @@ Here's a handy link to the [deployed page](https://blogscot.github.io/fcc-tribut
 
 ### Todo
 
-- [] Fix quotes padding.
+- [ ] Fix quotes padding.
