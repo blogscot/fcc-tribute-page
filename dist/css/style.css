@@ -43,6 +43,12 @@ img {
   margin: 1rem;
 }
 
+@media screen and (max-width: 500px) {
+  img {
+    width: auto;
+  }
+}
+
 hr {
   margin-top: 2.2rem;
   width: 40%;
