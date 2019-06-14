@@ -115,13 +115,38 @@ section#quotes h2 {
   font-style: italic;
 }
 
+section:last-child p {
+  margin: 2rem;
+  line-height: 1.3;
+}
+
+@media screen and (max-width: 500px) {
+  section:last-child p {
+    margin: 0 0 2rem 0;
+  }
+}
+
 section:last-child ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
   list-style-type: square;
-  line-height: 1.2;
+  list-style: none;
+  margin: 0;
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
 }
 
 section:last-child ul li > a {
   color: blue;
+  text-decoration: none;
+  margin: 8px;
 }
 
 #credit {
