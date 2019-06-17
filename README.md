@@ -1,9 +1,3 @@
-## FreeCodeCamp: Learn to code for free.
+# FreeCodeCamp Tribute Page
 
-Frontend Portfolio: Tribute Page
-
-Here's a handy link to the [deployed page](https://blogscot.github.io/fcc-tribute-page/).
-
-### Todo
-
-- [ ] Fix quotes padding.
+I chose to make a tribute page to Robert Carlyle, which can be [viewed here](https://blogscot.github.io/fcc-tribute-page/).
