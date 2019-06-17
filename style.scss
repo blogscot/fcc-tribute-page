@@ -7,6 +7,12 @@ h1 {
   text-align: center;
   font-family: var(--header-font);
   font-size: 38px;
+
+  @media screen and (max-width: 500px) {
+    span#name {
+      display: block;
+    }
+  }
 }
 
 h2 {
@@ -28,14 +34,31 @@ body {
 
 img {
   border: 5px solid white;
-  width: 640px;
-  @media screen and (max-width: 500px) {
-    width: auto;
-  }
+  max-width: 640px;
   height: auto;
-  max-width: 80vw;
+  @media screen and (max-width: 768px) {
+    max-width: 80vw;
+  }
   box-shadow: 5px 3px 5px 1px black;
   margin: 1rem;
+}
+
+figcaption {
+  text-align: center;
+
+  #credit {
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.9);
+
+    @media screen and (max-width: 500px) {
+      display: block;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+  }
 }
 
 hr {
@@ -117,15 +140,6 @@ section:last-child {
       text-decoration: none;
       margin: 8px;
     }
-  }
-}
-
-#credit {
-  font-size: 0.8rem;
-  color: rgba(0, 0, 0, 0.9);
-  a {
-    text-decoration: none;
-    color: inherit;
   }
 }
 
